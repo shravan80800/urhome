@@ -1,0 +1,195 @@
+
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+    text-transform: capitalize;
+    transition: all .2s cubic-bezier(.34,1.12,.68,1.31);
+}
+
+.menu-bar
+{
+  position:absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+.menu-bar:hover{
+  background-color: #19181fb1;
+}
+.logo 
+{
+  color: rgb(194, 193, 193);
+  font-size: 30px;
+  position: relative;
+  left: 10%;
+}
+.logo span 
+{
+  color: #2a2b2a;
+}
+.menu-bar ul 
+{
+  list-style: none;
+  display: flex;
+}
+.menu-bar ul li 
+{
+  /* width: 120px; */
+  padding: 10px 30px;
+  /* text-align: center; */
+  position: relative;
+}
+.menu-bar ul li a 
+{
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.menu-bar ul li a:hover 
+{
+  color: rgb(18, 18, 18);
+}
+.fas 
+{
+  float: right;
+  margin-left: 10px;
+  padding-top: 3px;
+  position: absolute;
+  color: #fefbfb;
+}
+.dropdown-menu 
+{
+  display: none;
+  background-color:  #2f2f2f;
+  position: absolute;
+}
+.menu-bar ul li:hover .dropdown-menu 
+{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #2f2f2f;
+  
+}
+.menu-bar ul li:hover .dropdown-menu ul 
+{
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .dropdown-menu ul li 
+{
+  width: 150px;
+  padding: 10px;
+}
+.dropdown-menu-1 
+{
+  display: none;
+}
+.dropdown-menu ul li:hover .dropdown-menu-1 
+{
+  display: block;
+  position: absolute;
+  left: 150px;
+  top: 0;
+  background-color: #2f2f2f;
+}
+
+.gallery{
+    margin-top: 10vh;
+    min-height: 100vh;
+    background: #fff;
+    padding-bottom: 100px;
+}
+.gallery .controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 0;
+    list-style: none;
+}
+.gallery .controls .buttons{
+    height: 40px;
+    text-align: center;
+    width: 215px;
+    background: #fff;
+    color: #666;
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+
+}
+.gallery .controls .buttons.active{
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+}
+.gallery .image_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallery .image_container .box22 .container22 .image{
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    /*border: 1px solid #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);*/
+    margin: 20px;
+}
+.gallery .image_container .box22 .container22 .image img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*.gallery .image_container .image:hover img{
+    transform: scale(1.4);
+}*/
+
+.gallery .image_container  .box22{
+    width: 425px;
+    height: 400px;
+    background-color: white;
+    border: 0.1rem rgb(49, 48, 48);
+    border-radius: 4px;
+   }
+   .gallery .image_container  .box22 .container22 {
+    position: relative;
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+  }
+  .gallery .image_container  .box22 .container22 .image .textt {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 50%;
+    /*background-color: white; Optional: Add a background color to the text area */
+  }
+  .gallery .image_container  .box22 .container22 .image  .textt h3{
+    margin-left: 3vh;
+    font-size: 1.5rem;
+    margin-top: 3vh;
+    color: #071c2e;
+  }
+  .gallery .image_container  .box22 .container22 .image .textt p{
+    margin-left: 3vh;
+    font-size: 1rem;
+    margin-bottom: 1.3vh;
+    color: rgb(47, 44, 44);
+  }
+  
+  .gallery .image_container .box22 .container22  .image .textt span i{
+    margin-left: 25vh;
+  }

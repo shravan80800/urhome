@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Real Estate Website</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@200;300;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,500&display=swap"rel="stylesheet">
+</head>
+    <body>
+    <!----------------------------------------Header-------------------------------------------------->
+    <header>
+       <div class="menu-bar">
+       <h1 class="logo">Ur<span>Home.</span></h1>
+      
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="about us/index.html">About us</a></li>
+          <li><a href="services\index.html">Services<i class="fas fa-caret-down"></i></a>
+              <div class="dropdown-menu">
+                  <ul>
+                    <li><a href="#">Construction<i class="fas fa-caret-right"></i></a>
+                      <div class="dropdown-menu-1">
+                        <ul>
+                          <li><a href="sevice/sevice/1.html">Commercial</a></li>
+                          <li><a href="sevice/sevice/2.html">Residential</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li><a href="#">Interior<i class="fas fa-caret-right"></i></a>
+                      <div class="dropdown-menu-1">
+                        <ul>
+                          <li><a href="sevice/sevice/3.html">Commercial</a></li>
+                          <li><a href="sevice/sevice/4.html">Residential</a></li>
+                         
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+          </li>
+          <li><a href="finalgall/gallery.html">Gallery</a>
+          </li>
+          <li><a href="blog/blog.html">Blog</a>
+          </li>
+          <li><a href="#">Location</a>
+          </li>
+          <li><a href="contact/contact.html">Contact us</a></li>
+        </ul>
+      </div>
+  </header>
+   
+    
+    <!-------------------------------------------Home section---------------------------------------->
+
+    <section class="home">
+      <video class="video-slide active" src="images/production_id_4301618 (1080p).mp4" autoplay muted loop></video>
+      <video class="video-slide" src="images/pexels_videos_2253719 (2160p).mp4" autoplay muted loop></video>
+      <video class="video-slide" src="images/production_id_3769966 (1080p).mp4" autoplay muted loop></video>
+      <video class="video-slide" src="images/production_id_4109217 (2160p).mp4" autoplay muted loop></video>
+      <div class="content active">
+        <h1>SPACIOUS<span><br>Homes</span></h1>
+        <p>We always try to make sure best quality and modern technology for<br> our customer to satisfy them more than 100%.</p>
+         <a href="contact/contact.html">Contact Us</a>
+      </div>
+      <div class="content">
+        <h1>LUXURY<span><br>Villa's</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolores molestiae quod neque voluptate voluptates molestias debitis quis, recusandae esse?.</p>
+         <a href="contact/contact.html">Contact Us</a>
+      </div>
+      <div class="content">
+        <h1>MODERN<span><br>Interior</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque tempora qui illo explicabo optio distinctio harum praesentium, necessitatibus voluptatum recusandae..</p>
+         <a href="contact/contact.html">Contact Us</a>
+      </div>
+      <div class="content">
+        <h1>Asthetic<span><br>Vibes</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt at fuga, quo vitae error vero molestiae quibusdam fugit unde deserunt, cumque veniam tempora in nulla ipsum repudiandae ullam dolor ipsam, excepturi suscipit? Iste, voluptates quae..</p>
+         <a href="contact/contact.html">Contact Us</a>
+      </div>
+      <div class="media-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="slider-navigation">
+<div class="nav-btn active"></div>
+<div class="nav-btn"></div>
+<div class="nav-btn"></div>
+<div class="nav-btn"></div>
+    </div>
+    </section>
+     <script type="text/javascript">
+  const btns = document.querySelectorAll(".nav-btn");
+  const slides = document.querySelectorAll(".video-slide");
+  const contents = document.querySelectorAll(".content");
+
+    var sliderNav = function(manual)
+    {
+      btns.forEach((btn) => {
+        btn.classList.remove("active");
+      });
+
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+
+      contents.forEach((content) => {
+        content.classList.remove("active");
+      });
+
+      btns[manual].classList.add("active");
+      slides[manual].classList.add("active");
+      contents[manual].classList.add("active");
+    }
+     
+    btns.forEach((btn ,i)  => {
+      btn.addEventListener("click", () => {
+sliderNav(i);
+      });
+    });
+     </script>
+<!--------------------------------------------About Section----------------------------------------->
+
+<section class="dogtraining" id="dogtraining"></section>
+        <section class="image">
+            <div class="container1">
+              <div class="right1"> </div>
+                <div class="left1">
+                    <div class="content2">
+                        <p class="abc">ABOUT US</p>
+                        <h1>Why Choose Us?</h1>
+                        <p>Huge number of propreties available here for buy, sell and <br>Rent. Also you find here co-living property so lots opportunity<br> you have to choose here and enjoy huge discount..</p>
+                        <a href="about us/index.html" class="btn1">Read more</a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+<!----------------------------------------gallery section------------------------------------------>
+<div class="partners-section">
+  <div class="partners-title"></div>
+  <div class="reliable-partners">Featured Properties available on our website</div>
+  <!-- partial:index.partial.html -->
+  <div class="container">
+      <div class="box">
+          <div class="imgBx">
+              <img src="finalgall/3.jpeg.jpg">
+          </div>
+          <div class="content ">
+              <div>
+                  <h2>Elite Garden Residence.<br> </h2>
+              <p><u>Kharadi</u><br>Added:4 July 2023</p>
+              <br>
+              <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+              </div>
+
+          </div>
+
+      </div>
+      <div class="box ">
+          <div class="imgBx ">
+              <img src="finalgall/1.jpeg.jpg">
+          </div>
+          <div class="content ">
+              <div>
+                  <h2>Elite Garden Residence.<br> </h2>
+              <p><u>Vimannagar</u><br>Added:4 July 2023</p>
+              <br>
+              <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+              </div>
+          </div>
+      </div>
+      <div class="box ">
+          <div class="imgBx ">
+              <img src="finalgall/2.jpeg.jpg">
+          </div>
+          <div class="content ">
+              <div>
+                  <h2>Elite Garden Residence.<br> </h2>
+              <p><u>Wagholi</u><br>Added:4 July 2023</p>
+              <br>
+              <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+              </div>
+          </div>
+      </div>
+      <div class="box ">
+          <div class="imgBx ">
+              <!--<img src="img/blog3.jpg">-->
+          </div>
+          <div class="content1" style="background-image: url(finalgall/7.jpeg.jpg); border: 1px solid#000;">
+              <div>
+                  <h2><a href="finalgall/gallery.html" style="color: #000; text-decoration: none;">View more featured properties</a></h2>
+              </div>
+          </div>
+      </div>
+
+  </div>
+ 
+    
+<!---------------------------------------------Video Section------------------------------------------->
+
+        <section class="a">
+          <section class="services" id="services">
+              <div class="service-containerr">
+                  <div class="boxxx">
+                      <p>Take a video tour<br><br><span>Watch the video for taking<br> your decision
+                              easily</span><br><br>View All</p><i class='bx bx-chevron-right'></i>
+                      <div class="box11">
+                          <video width="100%" height="100%" controls>
+                              <source src="images/production_id_3773486 (1080p).mp4" type="video/mp4">
+                          </video>
+                      </div>
+                      
+                  </div>
+              </div>
+          </section>
+      </section>
+<!---------------------------------reliable partners section----------------------------------------->
+<div class="partners">
+  <div class="partners-tit">Our Partners</div>
+  <div class="reliable">Reliable Partners</div>
+  <div class="partners-img">
+
+      <img src="images/relaible parter1.png" alt="Image 2 Description " style="width: 200px; height: 20vh;margin-right: 40px;">
+      <img src="images/relaibleparter2.png" alt="Image 3 Description " style="width: 200px; height: 20vh;margin-right: 40px;">
+      <img src="images/relaiblepartner3.png" alt="Image 1 Description " style="width: 200px; height: 20vh;margin-right: 40px;">
+      <img src="images/relaiblepartner4.png" alt="Image 2 Description " style="width: 200px; height: 20vh;margin-right: 40px;">
+      <img src="images/relaiblepartner6.jpg" alt="Image 2 Description " style="width: 200px; height: 20vh;margin-right: 40px;">
+      <!-- Add more image tags as needed -->
+
+  </div>
+  <div class="background-shapes "></div>
+</div>
+<!------------------------------------location---------------------------------------------->
+
+<section class="Location">
+  <div class="loc-section">
+    <centre><div class="loc-title">Location of our offices</div></centre>
+    <div class="container-loc">
+        <div class="box-loc1">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.274670758321!2d73.94200137506327!3d18.561651582539888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c5f60addd19b%3A0x2d6fbd5352af6e11!2sLiaisonit%20Studios%20-%20The%20Best%20Design%20Agency%20You%20Can%20Hire!5e0!3m2!1sen!2sin!4v1689845538471!5m2!1sen!2sin" width="400" height="300" style="border:0; margin-right: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+        <div class="box-loc2">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.019037497451!2d73.97461967944224!3d18.573180437486993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c383406fdc35%3A0x94143f264d45e231!2sBA%20Vermont!5e0!3m2!1sen!2sin!4v1689874660619!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+     </div>
+    </div>
+  </section>
+
+<!---------------------------------footer section----------------------------------------->
+
+<footer>
+  <div class="content">
+      <div class="left box">
+          <div class="upper">
+              <div class="topic">About us</div>
+              <p>Huge number of properties available here for buy ,sell and Rent. Also you find here co-living property so lots of opportunites you have to choose here and enjoy huge discount.</p>
+          </div>
+          <div class="lower">
+              <div class="topic">Contact us</div>
+              <div class="phone">
+                  <a href="#"><i class="fas fa-phone-volume"></i>+544 445 554</a>
+              </div>
+              <div class="email">
+                  <a href="#"><i class="fas fa-envelope"></i>urhome@gmail.com</a>
+              </div>
+          </div>
+      </div>
+      <div class="middle box">
+          <div class="topic">Quick links</div>
+          <div><a href="#">Home</a></div>
+          <div><a href="#">About Us</a></div>
+          <div><a href="#">Services</a></div>
+          <div><a href="#">Gallery</a></div>
+          <div><a href="#">Blog</a></div>
+          <div><a href="#">Location</a></div>
+          <div><a href="#">Contact Us</a></div>
+      </div>
+      <div class="right box">
+          <div class="topic">Subscribe us</div>
+          <form action="#">
+              <input type="text" placeholder="Enter email address">
+              <input type="submit" name="" value="Send">
+              <div class="media-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </form>
+      </div>
+  </div>
+  <div class="bottom">
+      <p>Copyright &#169; 2023<a href="#"> ur home </a> All rights reserved</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+
+
+       

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+
+    <!----------------------------------------Header-------------------------------------------------->
+    <header>
+      <div class="menu-bar">
+      <h1 class="logo">Ur<span>Home.</span></h1>
+     
+       <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="about us/index.html">About us</a></li>
+         <li><a href="services\index.html">Services<i class="fas fa-caret-down"></i></a>
+             <div class="dropdown-menu">
+                 <ul>
+                   <li><a href="#">Construction<i class="fas fa-caret-right"></i></a>
+                     <div class="dropdown-menu-1">
+                       <ul>
+                         <li><a href="sevice/sevice/1.html">Commercial</a></li>
+                         <li><a href="sevice/sevice/2.html">Residential</a></li>
+                       </ul>
+                     </div>
+                   </li>
+                   <li><a href="#">Interior<i class="fas fa-caret-right"></i></a>
+                     <div class="dropdown-menu-1">
+                       <ul>
+                         <li><a href="sevice/sevice/3.html">Commercial</a></li>
+                         <li><a href="sevice/sevice/4.html">Residential</a></li>
+                        
+                       </ul>
+                     </div>
+                   </li>
+                 </ul>
+               </div>
+         </li>
+         <li><a href="finalgall/gallery.html">Gallery</a>
+         </li>
+         <li><a href="blog/blog.html">Blog</a>
+         </li>
+         <li><a href="#">Location</a>
+         </li>
+         <li><a href="contact/contact.html">Contact us</a></li>
+       </ul>
+     </div>
+ </header>
+  
+   
+    
+    <section class="sec-02">
+      <div class="container">
+        <h3 class="section-title">About Us</h3>
+        <div class="content">
+          <div class="image">
+            <img src="css/img/pexels-max-rahubovskiy-7018401.jpg" alt="">
+          </div>
+          <div class="info">
+            <h1 class="info-title">We Provide latest properties!</h1>
+            
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis obcaecati officiis ducimus id ipsa soluta ipsum, a, sed deleniti magni ut debitis dicta dignissimos? Incidunt ratione similique maiores assumenda exercitationem recusandae laudantium fuga architecto. Quas ut, totam animi dolorum ipsum magni doloribus nam excepturi accusamus quisquam minus id adipisci inventore. Hic perspiciatis laudantium modi accusantium! Dolor tempore id quod.</p>
+            <p><br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus nobis sunt repudiandae quod dolorem veritatis assumenda expedita ex est. Accusamus veritatis tenetur hic modi eligendi. Itaque sit libero perferendis neque officiis consequuntur exercitationem harum nesciunt est, minus atque blanditiis provident, aliquam dolorem placeat. Dolorem expedita atque culpa ratione debitis officiis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+
+    <script>
+      //common reveal options to create reveal animations
+      ScrollReveal({
+        //reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+      });
+
+      //target elements, and specify options to create reveal animations
+      ScrollReveal().reveal(' .section-title', { delay: 500, origin: 'left' });
+      ScrollReveal().reveal('.sec-01 .image, .info', { delay: 600, origin: 'bottom' });
+      ScrollReveal().reveal('.text-box', { delay: 700, origin: 'right' });
+      ScrollReveal().reveal('.media-icons i', { delay: 500, origin: 'bottom', interval: 200 });
+      ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 500, origin: 'top' });
+      ScrollReveal().reveal('.media-info li', { delay: 500, origin: 'left', interval: 200 });
+    </script>
+
+  </body>
+</html>

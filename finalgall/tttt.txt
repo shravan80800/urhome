@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="finalgall\style1.css">
+</head>
+
+<body>
+        <!----------------------------------------Header-------------------------------------------------->
+        <header>
+            <div class="menu-bar">
+            <h1 class="logo">Ur<span>Home.</span></h1>
+           
+             <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="about us\index.html">About us</a></li>
+               <li><a href="services\index.html">Services<i class="fas fa-caret-down"></i></a>
+                   <div class="dropdown-menu">
+                       <ul>
+                         <li><a href="#">Construction<i class="fas fa-caret-right"></i></a>
+                           <div class="dropdown-menu-1">
+                             <ul>
+                               <li><a href="sevice\sevice\1.html">Commercial</a></li>
+                               <li><a href="sevice\sevice\2.html">Residential</a></li>
+                             </ul>
+                           </div>
+                         </li>
+                         <li><a href="#">Interior<i class="fas fa-caret-right"></i></a>
+                           <div class="dropdown-menu-1">
+                             <ul>
+                               <li><a href="sevice\sevice\3.html">Commercial</a></li>
+                               <li><a href="sevice\sevice\4.html">Residential</a></li>
+                              
+                             </ul>
+                           </div>
+                         </li>
+                       </ul>
+                     </div>
+               </li>
+               <li><a href="finalgall/gallery.html">Gallery</a>
+               </li>
+               <li><a href="blog\blog.html">Blog</a>
+               </li>
+               <li><a href="#">Location</a>
+               </li>
+               <li><a href="contact\contact.html">Contact us</a></li>
+             </ul>
+           </div>
+       </header>
+        
+    <div class="gallery">
+        <ul class="controls">
+            <li class="buttons active" data-filter="all">All Properties</li>
+            <li class="buttons" data-filter="buy">For buy</li>
+            <li class="buttons" data-filter="sale">For Sale</li>
+            <li class="buttons" data-filter="rent">For Rent</li>
+            <li class="buttons" data-filter="coliving">For Co-living</li>
+        </ul>
+        <br>
+        <div class="image_container">
+            <div class="box22 buy">
+                <div class="container22">
+                    <a href="1.jpg" class="image buy">
+                        <img src="1.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Kharadi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 sale">
+                <div class="container22">
+                    <a href="2.jpeg.jpg" class="image sale">
+                        <img src="2.jpeg.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Hinjewadi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 rent">
+                <div class="container22">
+                    <a href="3.jpg" class="image rent">
+                        <img src="3.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Wagholi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 coliving">
+                <div class="container22">
+                    <a href="4.jpg" class="image coliving">
+                        <img src="4.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Vimannagar</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 buy">
+                <div class="container22">
+                    <a href="1.jpg" class="image buy">
+                        <img src="1.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Kharadi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 sale">
+                <div class="container22">
+                    <a href="1.jpeg.jpg" class="image sale">
+                        <img src="1.jpeg.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Wagholi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 coliving">
+                <div class="container22">
+                    <a href="3.jpg" class="image coliving">
+                        <img src="3.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Vimannagar</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 buy">
+                <div class="container22">
+                    <a href="4.jpg" class="image buy">
+                        <img src="4.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Wagholi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div><div class="box22 rent">
+                <div class="container22">
+                    <a href="1.jpg" class="image rent">
+                        <img src="1.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Hinjewadi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 sale">
+                <div class="container22">
+                    <a href="5.jpg" class="image sale">
+                        <img src="5.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Kharadi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 sale">
+                <div class="container22">
+                    <a href="3.jpeg.jpg" class="image sale">
+                        <img src="3.jpeg.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Wagholi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 coliving">
+                <div class="container22">
+                    <a href="4.jpg" class="image coliving">
+                        <img src="4.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Hinjewadi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div><div class="box22 buy">
+                <div class="container22">
+                    <a href="1.jpg" class="image buy">
+                        <img src="1.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Vimannagar</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 rent">
+                <div class="container22">
+                    <a href="2.jpg" class="image rent">
+                        <img src="2.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Wagholi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 sale">
+                <div class="container22">
+                    <a href="4.jpeg.jpg" class="image sale">
+                        <img src="4.jpeg.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Kharadi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 buy">
+                <div class="container22">
+                    <a href="4.jpg" class="image buy">
+                        <img src="4.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Hinjewadi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div><div class="box22 coliving">
+                <div class="container22">
+                    <a href="1.jpg" class="image coliving">
+                        <img src="1.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Kharadi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 buy">
+                <div class="container22">
+                    <a href="2.jpg" class="image buy">
+                        <img src="2.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Wagholi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 sale">
+                <div class="container22">
+                    <a href="3.jpg" class="image sale">
+                        <img src="3.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Kharadi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 rent">
+                <div class="container22">
+                    <a href="4.jpg" class="image rent">
+                        <img src="4.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Vimannagar</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div><div class="box22 coliving">
+                <div class="container22">
+                    <a href="1.jpg" class="image coliving">
+                        <img src="1.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Vimannagar</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 rent">
+                <div class="container22">
+                    <a href="2.jpg" class="image rent">
+                        <img src="2.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Wagholi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 buy">
+                <div class="container22">
+                    <a href="3.jpg" class="image buy">
+                        <img src="3.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Hinjewadi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="box22 coliving">
+                <div class="container22">
+                    <a href="4.jpg" class="image coliving">
+                        <img src="4.jpg" alt="">
+                        <div class="textt">
+                            <h3>Elite Garden Residence.<br> </h3>
+                            <p><u>Kharadi</u><br>Added:4 July 2023</p>
+                            <hr>
+                            <br>
+                            <p>Price: $255300 <span><i class='bx bx-heart'></i></span> </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.buttons').click(function () {
+                $(this).addClass('active').siblings().removeClass('active');
+                var filter = $(this).attr('data-filter')
+                if (filter == 'all') {
+                    $('.box22').show(400);
+                } else {
+                    $('.box22').not('.' +filter).hide(200);
+                    $('.box22').filter('.' +filter).show(400);
+                }
+            });
+            $('.gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

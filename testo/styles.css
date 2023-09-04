@@ -1,0 +1,89 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(rgba(42, 45, 61, 0.452),rgba(44, 52, 81, 0.44)),url('../testo/images/pattern-bg.svg') right top no-repeat, linear-gradient(rgba(42, 45, 61, 0.452),rgba(44, 52, 81, 0.44)),url('../testo/images/pattern-curve.svg') left bottom no-repeat;
+    font-family: "Inter";
+    min-height: 100%;
+    
+}
+
+h5 {
+    color: hsl(240, 38%, 20%);
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.carousel {
+    min-height: 100%;
+}
+
+.author-image {
+    margin-top: 75px;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 60%;
+}
+
+.testimonial {
+    margin-top: 30%;
+    margin-left: 25%;
+}
+
+.testimonial img {
+    margin-left: 100px;
+}
+
+.name {
+    color: hsl(240, 38%, 20%);
+    font-weight: 700;
+}
+
+.role {
+    color: hsl(240, 18%, 77%);
+    font-weight: 500;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../testo/images/icon-prev.svg');
+    width: 26px;
+    height: 36px;
+}
+
+.carousel-control-next-icon {
+    background-image: url('../testo/images/icon-next.svg');
+    width: 26px;
+    height: 36px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 960px) {
+    .testimonial {
+        margin-top: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+    .testimonial img {
+        margin-left: 0;
+    }
+    .name,
+    .role {
+        display: block!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .testimonial {
+        margin-top: 180px;
+    }
+}
